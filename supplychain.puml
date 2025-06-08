@@ -1,0 +1,11 @@
+@startuml
+class User {
+  +name: String
+  +id: String
+  +email: String
+  +address: String
+  +login()
+  +logout()
+  +walletConnect()
+}
+@enduml
